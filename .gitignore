@@ -4,4 +4,4 @@ data/
 # checkpoints
 .ipynb_checkpoints
 __pycache__/
-.DF_Store
+.DS_Store

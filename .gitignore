@@ -1,2 +1,7 @@
-arrest-data-from-2010-to-present.csv
-crime-data-from-2010-to-present.csv
+# data stored here
+data/
+
+# checkpoints
+.ipynb_checkpoints
+
+__pycache__/

@@ -1,5 +1,6 @@
 # data stored here
-data/
+data/extracted
+data/pickled
 
 # checkpoints
 .ipynb_checkpoints

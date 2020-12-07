@@ -20,19 +20,21 @@ This dataset is the [LA Crime & Arrest Data](https://www.kaggle.com/cityofLA/los
 This was a univariate time series problem, predicting the monthly average crime count for each year. Time series model iterations included AR, ARMA and SARIMA algorithms. We compared the models against each other using the AIC score, and evaluated the final model with RMSE. The RMSE simply measures how accurate predictions are.  We predicted data through 2019, because short-term predictions can aid immediate decisions for the business context.
 
 ## Business Questions
-1. How much has crime fluctuated in the last 10 years?
+**1. How much has crime fluctuated in the last 10 years?**
 
 ![img](./visualizations/LA_Volume_of_Crime_Trend_boxplot.png)
 
 The average monthly crime in the period between 2010 and 2018 ranges between 530 crimes per month to 630 crimes per months. We can also see that 2017 saw the highest average number of crimes reported, while 2013 saw the lowest average number of crimes reported in LA.
 
-2. What areas in LA have the highest crime rate?
+
+**2. What areas in LA have the highest crime rate?**
 
 ![img](./visualizations/LA_crime_map.png)
 
 The top 5 areas where most of the crimes in LA have occured among the 21 geographic areas is 77th Street, Southwest, North Hollywood, Pacific, and Southeast.
 
-3. What are the top 3 vulnerable demographics in LA?
+
+**3. What are the top 3 vulnerable demographics in LA?**
 
 ![img](./visualizations/Distribution_of_victims_by_descent_and_area_name.png)
 

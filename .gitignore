@@ -1,4 +1,5 @@
 # data stored here
+data/
 data/extracted
 data/pickled
 
@@ -6,4 +7,3 @@ data/pickled
 .ipynb_checkpoints
 __pycache__/
 .DS_Store
-.DS_Store?

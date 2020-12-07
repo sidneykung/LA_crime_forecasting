@@ -1,6 +1,6 @@
 # Los Angeles Crime Forecasting
 
-![img](./images/fire_tower.jpg)
+![img](./visualizations/los-angeles-us-banner-dp.png)
 
 **Authors**: [David Bruce](mailto:david.bruce14@gmail.com), [Sidney Kung](mailto:sidneyjkung@gmail.com), [Lhamu Tsering](mailto:boutlhamu@gmail.com)
 

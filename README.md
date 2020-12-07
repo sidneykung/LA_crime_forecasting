@@ -1,5 +1,9 @@
 # Los Angeles Crime Forecasting
 
+![img](./images/fire_tower.jpg)
+
+**Authors**: [David Bruce](mailto:david.bruce14@gmail.com), [Sidney Kung](mailto:sidneyjkung@gmail.com), [Lhamu Tsering](mailto:boutlhamu@gmail.com)
+
 ## Overview
 
 ## Business Problem
@@ -10,9 +14,7 @@
 
 ## Next Steps
 
-![img](./images/fire_tower.jpg)
 
-**Authors**: [David Bruce](mailto:david.bruce14@gmail.com), [Sidney Kung](mailto:sidneyjkung@gmail.com), [Lhamu Tsering](mailto:boutlhamu@gmail.com)
 
 ![img](./images/fire_map.png)
 

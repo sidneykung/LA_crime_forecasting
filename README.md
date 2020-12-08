@@ -64,7 +64,7 @@ Our recommendations stem primarily from our explorative data analysis. The forec
 
 
 ## Repository Contents
-- `EDA`: Folding contains exploratory data analysis notebooks
+- `EDA`: Folder contains exploratory data analysis notebooks
 - `data`: Folder contains data used in repository
 - `modeling`: Folder contains different stages of modeling
 - `src`: Contains .py files

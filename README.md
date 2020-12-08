@@ -20,7 +20,7 @@ This dataset is the [LA Crime & Arrest Data](https://www.kaggle.com/cityofLA/los
 This was a univariate time series problem, predicting the monthly average crime count for each year. Time series model iterations included AR, ARMA and SARIMA algorithms. We compared the models against each other using the AIC score, and evaluated the final model with RMSE. The RMSE simply measures how accurate predictions are.  We predicted data through 2019, because short-term predictions can aid immediate decisions for the business context.
 
 ## Business Questions
-**1. How much has crime fluctuated in the last 10 years?**
+**1. How much has crime fluctuated in the last 8 years?**
 
 ![img](./visualizations/LA_Volume_of_Crime_Trend_boxplot.png)
 
@@ -44,9 +44,13 @@ Looking at the top 3 vulnerable demographics in LA, Black and Latinx communities
 
 ## Final Model Performance
 
+![img](./visualizations/model_iterations.png)
+
+(insert text about modeling process and how we got to the final SARIMA model.)
+
 ![img](./visualizations/final_model_forecasts.png)
 
-
+(forecast analysis)
 
 ## Recommendations
 Our recommendations stem primarily from our explorative data analysis. The forecasts our model predicted predicts a slight decrease in crime for 2019.
@@ -64,10 +68,12 @@ Our recommendations stem primarily from our explorative data analysis. The forec
 
 
 ## Repository Contents
-- `EDA`: Folding contains exploratory data analysis notebooks
-- `data`: Folder contains data used in repository
+- `EDA`: Folder contains exploratory data analysis notebooks
+- `data`: Folder contains data used in notebooks, mostly hidden in .gitignore due to file sizes
 - `modeling`: Folder contains different stages of modeling
-- `src`: Contains .py files
-- `visualizations`: Folder containing images used in repository
-- `.gitignore`: Contains untracked files including the original dataset
+- `src`: Folder contains .py file
+- `visualizations`: Folder contains graphs from EDA & modeling process
+- `.gitignore`: Contains hidden files including the original dataset
+- `data_cleaning.ipynb`: Notebook used to clean `crime-data-from-2010-to-present.csv`
+- `data_loading.ipynb`: Notebook used to load in Kaggle data
 - `final_notebook.ipynb`: Final notebook with EDA analysis and modeling process

@@ -44,9 +44,13 @@ Looking at the top 3 vulnerable demographics in LA, Black and Latinx communities
 
 ## Final Model Performance
 
+![img](./visualizations/model_iterations.png)
+
+(insert text about modeling process and how we got to the final SARIMA model.)
+
 ![img](./visualizations/final_model_forecasts.png)
 
-
+(forecast analysis)
 
 ## Recommendations
 Our recommendations stem primarily from our explorative data analysis. The forecasts our model predicted predicts a slight decrease in crime for 2019.

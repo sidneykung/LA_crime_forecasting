@@ -20,7 +20,7 @@ This dataset is the [LA Crime & Arrest Data](https://www.kaggle.com/cityofLA/los
 This was a univariate time series problem, predicting the monthly average crime count for each year. Time series model iterations included AR, ARMA and SARIMA algorithms. We compared the models against each other using the AIC score, and evaluated the final model with RMSE. The RMSE simply measures how accurate predictions are.  We predicted data through 2019, because short-term predictions can aid immediate decisions for the business context.
 
 ## Business Questions
-**1. How much has crime fluctuated in the last 10 years?**
+**1. How much has crime fluctuated in the last 8 years?**
 
 ![img](./visualizations/LA_Volume_of_Crime_Trend_boxplot.png)
 

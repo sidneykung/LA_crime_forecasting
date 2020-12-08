@@ -82,3 +82,4 @@ Our recommendations stem primarily from our explorative data analysis. The forec
 - `data_cleaning.ipynb`: Notebook used to clean `crime-data-from-2010-to-present.csv`
 - `data_loading.ipynb`: Notebook used to load in Kaggle data
 - `final_notebook.ipynb`: Final notebook with EDA analysis and modeling process
+- `presentation.pdf`: Image of slide deck

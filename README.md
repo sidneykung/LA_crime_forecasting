@@ -44,14 +44,19 @@ Looking at the top 3 vulnerable demographics in LA, Black and Latinx communities
 
 ## Final Model Performance
 
+To get to our final model, we first analysed the time series data for stationarity  as well as stationarity in the residuals of the time series. We also identified trend and seasonality in the data by performing a seasonal decomposition of the time series. On multiple iterations of differencing on the time series, we were not able to achieve stationarity. However, since the residuals were stationary we went further into the modeling process. Below is a table that shows you the main model iterations that were compared to identify the best final model.
+
+To make predictions and forecast the time series data, we want a model that minimizes error. Therefore, to compare models for model selection we picked the AIC score and the RMSE score. The lower these measures the better the model.
+
 ![img](./visualizations/model_iterations.png)
 
-(insert text about modeling process and how we got to the final SARIMA model.)
+Referring to the table above, we saw that there was a relatively small difference in the model RMSE of our previous best model ARMA-3,5 vs SARIMAX(0, 2, 2)x(2, 2, 2, 12). However, the AIC for the SARIMAX(0, 2, 2)x(2, 2, 2, 12) is significantly lower, indicating a better fit model. Therfore, our final best model is the SARIMAX(0, 2, 2)x(2, 2, 2, 12).
 
 ![img](./visualizations/final_model_forecasts.png)
 
-(forecast analysis)
+Once the final model was predicted we ran a diagnostic to confirm that the residuals pass the assumptions of zero mean and weak correlation. The residuals from our best model passed the assumptions implying that the model uses all information in the data to make forecasts and that the forecasts are unbiased.
 
+On plotting the forecast as shown in the image above, we find that as the number of forecast steps (here steps =24) are increased the forecasted values stray above and away from the observed values. The confidence interval (shaded area) for the forecasts also exponentially increase with additional number of steps.
 ## Recommendations
 Our recommendations stem primarily from our explorative data analysis. The forecasts our model predicted predicts a slight decrease in crime for 2019.
 

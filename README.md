@@ -80,7 +80,6 @@ Our recommendations stem primarily from our explorative data analysis. The forec
 ├── data                            # contains raw data, mostly hidden in .gitignore due to file sizes
 ├── modeling                        # contains different stages of modeling
 ├── src                             # source folder
-│   └── training_data.csv           # raw dataset
 ├── visualizations                  # contains graphs and images
 ├── README.md                       # public-facing preview
 ├── data_cleaning.ipynb             # used to clean `crime-data-from-2010-to-present.csv`

@@ -67,9 +67,10 @@ Our recommendations stem primarily from our explorative data analysis. The forec
 3. Communities of color, namely Black and Latinx, makeup larger portions of the victims in these high-crime areas and should receive small business loans and other community-based incentives to help revitalize these areas.
 
 ## Next Steps
-- With more time we would acquire more historical data to help make stronger predictions and forecasts further into the future. 
-- The addition of exogenous variables from census data would also add some complexity to our univariate model that could help us to diagnose underlying issues with crime more directly. 
-- Using a SARIMAX model or experimenting with Facebook Prophet would be of interest, and using incoming data to evaluate our model's forecasting performance.
+- Gather more historical data to help make stronger predictions and forecasts further into the future
+- Include exogenous variables from census data to add complexity to the univariate model
+- Implement a SARIMAX model and Facebook Prophet model
+- Use incoming data to evaluate our model's forecasting performance
 
 
 ## Repository Contents

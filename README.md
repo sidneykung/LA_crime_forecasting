@@ -73,13 +73,19 @@ Our recommendations stem primarily from our explorative data analysis. The forec
 
 
 ## Repository Contents
-- `EDA`: Folder contains exploratory data analysis notebooks
-- `data`: Folder contains data used in notebooks, mostly hidden in .gitignore due to file sizes
-- `modeling`: Folder contains different stages of modeling
-- `src`: Folder contains .py file
-- `visualizations`: Folder contains graphs from EDA & modeling process
-- `.gitignore`: Contains hidden files including the original dataset
-- `data_cleaning.ipynb`: Notebook used to clean `crime-data-from-2010-to-present.csv`
-- `data_loading.ipynb`: Notebook used to load in Kaggle data
-- `final_notebook.ipynb`: Final notebook with EDA analysis and modeling process
-- `presentation.pdf`: Image of slide deck
+
+```bash
+.
+├── EDA                             # contains exploratory data analysis notebooks
+├── data                            # contains raw data, mostly hidden in .gitignore due to file sizes
+├── modeling                        # contains different stages of modeling
+├── src                             # source folder
+│   └── training_data.csv           # raw dataset
+├── visualizations                  # contains graphs and images
+├── README.md                       # public-facing preview
+├── data_cleaning.ipynb             # used to clean `crime-data-from-2010-to-present.csv`
+├── data_loading.ipynb              # used to load in Kaggle data
+├── final_notebook.ipynb            # final version of EDA, feature engineering and modeling process
+└── presentation.pdf                # image of slide deck
+
+```
